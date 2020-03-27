@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { FormationComponent } from './to-do/formation.component';
+import { FormationComponent } from './formation/formation.component';
 import {StoreModule} from '@ngrx/store';
 import {FormationReducer} from './formation.reducer';
 import {EffectsModule} from '@ngrx/effects';

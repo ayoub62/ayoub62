@@ -1,7 +1,6 @@
-import { Action, createReducer, on } from '@ngrx/store';
+import {Action, createReducer, on} from '@ngrx/store';
 import * as FormationActions from './formation.action';
-import Formation from './formation.model';
-import FormationState, { initializeState } from './formation.state';
+import FormationState, {initializeState} from './formation.state';
 
 export const intialState = initializeState();
 
