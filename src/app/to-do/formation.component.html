@@ -1,0 +1,19 @@
+<h2 class="text-center">Mes formations</h2>
+<table>
+  <thead>
+  <th>#</th>
+  <th>Titre</th>
+  <th>Description</th>
+  <th>Localisation</th>
+  <th>Formateur</th>
+  </thead>
+  <tbody>
+  <tr *ngFor="let f of formationsList">
+    <td>{{f.id}}</td>
+    <td>{{f.titre}}</td>
+    <td>{{f.description}}</td>
+    <td>{{f.localisation}}</td>
+    <td>{{f.formateur}}</td>
+  </tr>
+  </tbody>
+</table>
